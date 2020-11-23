@@ -6,6 +6,9 @@ lab 2 -> rewriting lab 1 so that it uses final state machines instead of regular
          
 lab 3 -> writing a flex specification in order to obtain a lexical analizer for my mini programming language
 instructions:
+
     flex lab3.l
+    
     gcc lex.yy.c
+    
     ./a.out
