@@ -1,0 +1,16 @@
+simbol: 0   cod TS: 55
+
+simbol: 1   cod TS: 53
+
+simbol: 2   cod TS: 54
+
+simbol: da   cod TS: 56
+
+simbol: i   cod TS: 51
+
+simbol: nr   cod TS: 50
+
+simbol: nu   cod TS: 57
+
+simbol: prim   cod TS: 52
+

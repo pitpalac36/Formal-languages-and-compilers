@@ -1,0 +1,38 @@
+# include < stdio.h >
+int main ( ) {
+    double a , b , c , minim , maxim ;
+    scanf ( "%lf" , & a ) ;
+    scanf ( "%lf" , & b ) ;
+    scanf ( "%lf" , & c ) ;
+    if ( a > b ) {
+        if ( a > c ) {
+            maxim = a ;
+            if ( b < c ) {
+                minim = b ;
+            }
+            }
+         }
+       else {
+            maxim = c ;
+            if ( a < b ) {
+                minim = a ;
+            }
+             }
+        }
+    }
+    else {
+        if ( b < c ) {
+          maxim = c ;
+          minim = a ;
+          }
+        else {
+            maxim = b ;
+            if ( a < c ) {
+              minim = a ;
+              }
+          }
+     }
+    printf ( "%lf" , minim ) ;
+    printf ( "%lf" , maxim ) ;
+    return 0 ;
+  }

@@ -1,0 +1,8 @@
+p
+p 0 q
+p 1 r
+q 1 t
+r 1 p
+t 1 r
+t 0 s
+s

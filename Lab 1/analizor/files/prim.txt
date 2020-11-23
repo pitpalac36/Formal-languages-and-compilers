@@ -1,0 +1,18 @@
+# include < stdio.h >
+int main ( ) {
+    int nr , i , prim ;
+    prim = 1 ;
+    scanf ( "%d" , & nr ) ;
+    for ( i = 2 ; i < nr / 2 ; i = i + 1 ) {
+        if ( nr % i == 0 ) {
+            prim = 0 ;
+         }
+   }
+    if ( prim == 1 ) {
+        printf ( " da " ) ;
+    }
+    else {
+        printf ( " nu " ) ;
+      }
+    return 0 ;
+  }

@@ -1,0 +1,184 @@
+cod atom: 3   cod TS: -1
+
+cod atom: 4   cod TS: -1
+
+cod atom: 5   cod TS: -1
+
+cod atom: 7   cod TS: -1
+
+cod atom: 6   cod TS: -1
+
+cod atom: 8   cod TS: -1
+
+cod atom: 9   cod TS: -1
+
+cod atom: 10   cod TS: -1
+
+cod atom: 11   cod TS: -1
+
+cod atom: 12   cod TS: -1
+
+cod atom: 8   cod TS: -1
+
+cod atom: 1   cod TS: 50
+
+cod atom: 14   cod TS: -1
+
+cod atom: 1   cod TS: 51
+
+cod atom: 14   cod TS: -1
+
+cod atom: 1   cod TS: 52
+
+cod atom: 15   cod TS: -1
+
+cod atom: 1   cod TS: 52
+
+cod atom: 16   cod TS: -1
+
+cod atom: 2   cod TS: 53
+
+cod atom: 15   cod TS: -1
+
+cod atom: 17   cod TS: -1
+
+cod atom: 10   cod TS: -1
+
+cod atom: 18   cod TS: -1
+
+cod atom: 14   cod TS: -1
+
+cod atom: 19   cod TS: -1
+
+cod atom: 1   cod TS: 50
+
+cod atom: 11   cod TS: -1
+
+cod atom: 15   cod TS: -1
+
+cod atom: 20   cod TS: -1
+
+cod atom: 10   cod TS: -1
+
+cod atom: 1   cod TS: 51
+
+cod atom: 16   cod TS: -1
+
+cod atom: 2   cod TS: 54
+
+cod atom: 15   cod TS: -1
+
+cod atom: 1   cod TS: 51
+
+cod atom: 5   cod TS: -1
+
+cod atom: 1   cod TS: 50
+
+cod atom: 21   cod TS: -1
+
+cod atom: 2   cod TS: 54
+
+cod atom: 15   cod TS: -1
+
+cod atom: 1   cod TS: 51
+
+cod atom: 16   cod TS: -1
+
+cod atom: 1   cod TS: 51
+
+cod atom: 22   cod TS: -1
+
+cod atom: 2   cod TS: 53
+
+cod atom: 11   cod TS: -1
+
+cod atom: 12   cod TS: -1
+
+cod atom: 23   cod TS: -1
+
+cod atom: 10   cod TS: -1
+
+cod atom: 1   cod TS: 50
+
+cod atom: 24   cod TS: -1
+
+cod atom: 1   cod TS: 51
+
+cod atom: 25   cod TS: -1
+
+cod atom: 2   cod TS: 55
+
+cod atom: 11   cod TS: -1
+
+cod atom: 12   cod TS: -1
+
+cod atom: 1   cod TS: 52
+
+cod atom: 16   cod TS: -1
+
+cod atom: 2   cod TS: 55
+
+cod atom: 15   cod TS: -1
+
+cod atom: 13   cod TS: -1
+
+cod atom: 13   cod TS: -1
+
+cod atom: 23   cod TS: -1
+
+cod atom: 10   cod TS: -1
+
+cod atom: 1   cod TS: 52
+
+cod atom: 25   cod TS: -1
+
+cod atom: 2   cod TS: 53
+
+cod atom: 11   cod TS: -1
+
+cod atom: 12   cod TS: -1
+
+cod atom: 26   cod TS: -1
+
+cod atom: 10   cod TS: -1
+
+cod atom: 27   cod TS: -1
+
+cod atom: 1   cod TS: 56
+
+cod atom: 27   cod TS: -1
+
+cod atom: 11   cod TS: -1
+
+cod atom: 15   cod TS: -1
+
+cod atom: 13   cod TS: -1
+
+cod atom: 28   cod TS: -1
+
+cod atom: 12   cod TS: -1
+
+cod atom: 26   cod TS: -1
+
+cod atom: 10   cod TS: -1
+
+cod atom: 27   cod TS: -1
+
+cod atom: 1   cod TS: 57
+
+cod atom: 27   cod TS: -1
+
+cod atom: 11   cod TS: -1
+
+cod atom: 15   cod TS: -1
+
+cod atom: 13   cod TS: -1
+
+cod atom: 29   cod TS: -1
+
+cod atom: 2   cod TS: 55
+
+cod atom: 15   cod TS: -1
+
+cod atom: 13   cod TS: -1
+
