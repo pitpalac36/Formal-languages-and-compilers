@@ -24,6 +24,7 @@
 
   struct TS ts = {.pozCurenta = 0, .codCurent = 50 };
   struct FIP fip = {.pozCurenta = 0 };
+  int liniaCurenta = 1;
 
   void adaugaFIP(int cod);
 
@@ -36,7 +37,7 @@ id       [a-zA-Z_]+[a-zA-Z_0-9]*
 const    0|[1-9]+[0-9]*|\-[1-9]+[0-9]*
 %%
 
-"#"  { adaugaFIP(3); }
+" # "  { adaugaFIP(3); }
 "include" { adaugaFIP(4); }
 "<"  { adaugaFIP(5); }
 ">"  { adaugaFIP(6); }
@@ -70,8 +71,10 @@ const    0|[1-9]+[0-9]*|\-[1-9]+[0-9]*
 
 {id} { adaugaTS(1, yytext); }
 {const}  { adaugaTS(2, yytext); }
-[ \t\n]+   /* whitespace */
-.  { printf("%s  token nerecunoscut\n", yytext); }
+[ \t]+   /* whitespace */
+[\n] {liniaCurenta++;}
+.  { printf("%s  token nerecunoscut la linia %d!!\n", yytext, liniaCurenta); 
+     return -1; }
 
 %%
 
@@ -105,7 +108,7 @@ int main()
   scanf("%s", filename);
   f = fopen(filename, "r");
   yyin = f;
-  yylex();
+  if (yylex() == -1) return -1;
 
   printf("\n====== FIP ======\n");
   for (int i = 0; i < fip.pozCurenta; i++)
