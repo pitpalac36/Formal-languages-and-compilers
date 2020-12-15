@@ -12,3 +12,14 @@ instructions:
     gcc lex.yy.c
     
     ./a.out
+
+lab 4 -> writin a bison specification in order to obtain a syntactic analizer for my mini programming language + improving my lexical analizer;
+instructions:
+
+    flex lab3.l
+    
+    bison -d lab4.y
+    
+    gcc lex.yy.c lab4.tab.c
+    
+    ./a.out
