@@ -1,0 +1,76 @@
+program :
+# INCLUDE < STDIO.H > INT MAIN ( ) { lista_declaratii lista_instructiuni RETURN CONST ';' }
+;
+
+lista_declaratii :
+declaratie ';' lista_declaratii
+
+;
+
+declaratie :
+tip ID
+declaratie_struct
+;
+
+declaratie_struct :
+STRUCT { lista_declaratii } ID
+;
+
+tip :
+INT
+DOUBLE
+;
+
+lista_instructiuni :
+instructiune lista_instructiuni
+
+;
+
+instructiune :
+instructiune_atribuire ';'
+instructiune_conditionala
+instructiune_ciclare
+instructiune_afisare ';'
+instructiune_unara ';'
+;
+
+instructiune_atribuire :
+ID = expresie
+;
+
+instructiune_unara :
+ID ++
+ID --
+;
+
+expresie :
+expresie + expresie
+expresie - expresie
+expresie * expresie
+expresie / expresie
+expresie % expresie
+ID
+CONST
+;
+
+instructiune_conditionala :
+IF ( conditie ) { lista_instructiuni }
+IF ( conditie ) { lista_instructiuni } ELSE { lista_instructiuni }
+;
+
+instructiune_ciclare :
+WHILE ( conditie ) { lista_instructiuni }
+FOR ( instructiune_atribuire ';' conditie ';' instructiune_unara ) { lista_instructiuni }
+;
+
+conditie :
+expresie < expresie
+expresie > expresie
+expresie == expresie
+;
+
+instructiune_afisare :
+PRINTF ( CONST )
+PRINTF ( %D , ID )
+PRINTF ( %LF , ID )
+;
