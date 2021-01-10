@@ -13,7 +13,7 @@ instructions:
     
     ./a.out
 
-lab 4 -> writin a bison specification in order to obtain a syntactic analizer for my mini programming language + improving my lexical analizer;
+lab 4 -> writing a bison specification in order to obtain a syntactic analizer for my mini programming language + improving my lexical analizer;
 instructions:
 
     flex lab3.l
@@ -23,3 +23,5 @@ instructions:
     gcc lex.yy.c lab4.tab.c
     
     ./a.out
+
+lab 5 -> java syntactic analizer using fip, keywords map and grammar rules
