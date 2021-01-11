@@ -25,3 +25,5 @@ instructions:
     ./a.out
 
 lab 5 -> java syntactic analizer using fip, keywords map and grammar rules
+
+lab 6 -> extending flex and bison so that it generates the equivalent NASM code for the input file; removed cyclic instructions for my mini programming language + removed fip computation
